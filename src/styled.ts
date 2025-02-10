@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     margin: 0;
 
-    background-color: #ffffff;
+    background-color: #191919;
   }
 
   img {
@@ -106,7 +106,7 @@ const Typography = styled.span<{
   $textAlign?: React.CSSProperties["textAlign"];
 }>`
   color: ${({ $color }) => $color ?? "#000000"};
-  font-family: ${({ $fontFamily }) => $fontFamily ?? "Helvetica, sans-serif"};
+  font-family: ${({ $fontFamily }) => $fontFamily ?? "Arial"};
   font-size: ${({ $fontSize }) => $fontSize ?? "16px"};
   font-weight: ${({ $fontWeight }) => $fontWeight ?? 400};
   letter-spacing: ${({ $letterSpacing }) => $letterSpacing};

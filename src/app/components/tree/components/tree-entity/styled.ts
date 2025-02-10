@@ -8,11 +8,13 @@ const TreeEntityImg = styled.img`
 `;
 
 const TreeEntityTypography = styled(Typography).attrs({
+  $color: "#ffffff",
   $fontSize: "24px",
 })``;
 
 const TreeEntityChildrenFlex = styled(Flex).attrs({
   $flexDirection: "column",
+  $gap: "8px",
   $margin: "0 0 0 16px",
 })<{ $isOpen: boolean }>`
   ${({ $isOpen }) =>
