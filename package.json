@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-template",
+  "name": "react-typescript-folder-tree-example",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --env mode=production",
@@ -35,7 +35,6 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-typescript-template": "file:"
+    "react-dom": "^18.3.1"
   }
 }

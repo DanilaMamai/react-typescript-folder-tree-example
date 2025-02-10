@@ -1,13 +1,13 @@
-# react-typescript-template
-A react-typescript template with webpack
+# react-typescript-folder-tree-example
+A react-typescript folder tree example
 
 ## Docker commands
 
-### `docker build -t react-typescript-template .`
+### `docker build -t react-typescript-folder-tree-example .`
 
 Builds docker image
 
-### `docker run -d -p 3000:80 react-typescript-template`
+### `docker run -d -p 3000:80 react-typescript-folder-tree-example`
 
 Runs docker container
 
