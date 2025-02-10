@@ -1,3 +1,10 @@
 import React from "react";
 
-export const App = () => <div>REACT</div>;
+import { AppFlex } from "./styled";
+import { Tree } from "./components";
+
+export const App = () => (
+  <AppFlex>
+    <Tree />
+  </AppFlex>
+);
